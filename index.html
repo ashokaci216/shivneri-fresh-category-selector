@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shivneri Fresh — Select Category</title>
+
+  <link rel="stylesheet" href="outlet-selector.css" />
+</head>
+
+<body>
+  <main class="screen" id="screen">
+    <header class="screen-header">
+      <p class="screen-title">Select One Category to Start</p>
+    </header>
+
+    <section class="stage" aria-label="Category selection">
+      <div class="center" aria-hidden="false">
+        <img
+          class="brand-logo"
+          src="assets/logo-shivneri-fresh.png"
+          alt="Shivneri Fresh"
+          draggable="false"
+        />
+      </div>
+
+      <div class="orbit" id="orbit" role="list" aria-label="Categories"></div>
+    </section>
+
+    <footer class="screen-footer">
+      <button class="cta" id="btnOrder" disabled>Inquiry on WhatsApp</button>
+      <p class="hint" id="hintText">Select one category to continue</p>
+    </footer>
+  </main>
+
+  <script src="outlets.js"></script>
+  <script src="outlet-selector.js"></script>
+</body>
+</html>
